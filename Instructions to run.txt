@@ -1,0 +1,35 @@
+
+***THIS PROGRAM HAS ONLY BEEN TESTED FOR WINDOWS USERS***
+
+/// FIRST APPROACH ///
+-> If you run into errors on Step 2, move to second approach
+
+Step 1: cd into 'main' folder
+Step 2: run the following command -> python manage.py runserver 0.0.0.0:8181
+
+If you want colored cartoonized output then type the following into
+your web browser: <IP ADDRESS>:8181/cartoon
+
+If you want black and white cartoonized output then type the following into
+your web browser: <IP ADDRESS>:8181/bw
+
+You can check your IP ADDRESS by typing 'ipconfig' in cmd.
+
+For instance, if your IP ADDRESS is 192.168.10.1, you will type
+192.168.10.1:8181/bw or 192.168.10.1:8181/bw in your browser.
+
+Finally upload image and enjoy!
+
+                   ----------------------------------------
+
+/// SECOND APPROACH ///
+
+Run the following commands in order:
+
+.\env\Scripts\activate
+pip install -r req.txt
+pip freeze
+
+After this go to FIRST APPROACH and re run all the commands in order!
+
+                    ----------------------------------------
